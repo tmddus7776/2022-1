@@ -1,0 +1,23 @@
+from binarySearchTree import*
+
+bts1 = BinarySearchTree()
+bts1.insert(10)
+bts1.insert(20)
+bts1.insert(5)
+bts1.insert(80)
+bts1.insert(90)
+bts1.insert(7550)
+bts1.insert(30)
+bts1.insert(77)
+bts1.insert(15)
+bts1.insert(40)
+bts1.delete(7550)
+bts1.delete(10)
+
+print("preorder: ")
+bts1.preorder(bts1.getRoot())
+print("\ninorder: ")
+bts1.inorder(bts1.getRoot())
+print("\npostorder: ")
+bts1.postorder(bts1.getRoot())
+print("\n")
